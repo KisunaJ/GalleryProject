@@ -1,0 +1,19 @@
+<div>
+     <div class="ui-toolbar-group-left">
+      <img src="\assets\Images\logo.JPG">
+   </div>
+   <div class="ui-toolbar-group-right">
+      <p-button label="Peru" (onClick)="activar()"></p-button>
+      <p-button label="Guatemala" (onClick)="activar()"></p-button>
+      <p-button label="Other Stories" (onClick)="activar()"></p-button>
+      <p-button label="Portraits" (onClick)="activar()"></p-button>
+      <p-button label="Palimpsestos" (onClick)="activar()"></p-button>
+      <p-button label="Videos" (onClick)="activar()"></p-button>
+      <p-button label="Bio" (onClick)="activar()"></p-button>
+      <p-button label="Contact" (onClick)="activar()"></p-button>
+   </div>
+</div>
+
+<div *ngIf="activo == true">
+   <span>hola aqui vamos</span>
+</div>
