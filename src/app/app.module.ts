@@ -7,11 +7,16 @@ import { HeaderComponent } from './header/header.component';
 import {ToolbarModule} from 'primeng/toolbar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng/button';
+import { GalleryComponent } from './gallery/gallery.component';
+import { HomeComponent } from './home/home.component';
+import {GalleriaModule} from 'primeng/galleria';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    GalleryComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -19,6 +24,7 @@ import {ButtonModule} from 'primeng/button';
     ToolbarModule,
     BrowserAnimationsModule,
     ButtonModule,
+    GalleriaModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
