@@ -1,0 +1,5 @@
+<p-galleria [value]="imagenes" [circular]="true" [autoPlay]="true" [transitionInterval]="2000" [showThumbnails]="false">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.ruta" [alt]="item.nombre" width="2600" height="510"/>
+    </ng-template>
+</p-galleria>
