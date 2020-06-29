@@ -11,6 +11,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import {GalleriaModule} from 'primeng/galleria';
 
+
 @NgModule({
   declarations: [
     AppComponent,
