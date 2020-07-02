@@ -1,8 +1,8 @@
-export class albumes{
+import { Secciones } from './enums/secciones';
 
-id: number;
-nombre: string;
-imagen: string;
-
-
+export class albumes {
+  id: number;
+  nombre: string;
+  imagen: string;
+  seccion: Secciones;
 }

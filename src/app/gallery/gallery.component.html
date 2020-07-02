@@ -1,12 +1,15 @@
 
 <div class = "p-grid p-justify-center"><span style="font-size: 50px;"> {{titulo}} </span></div>
 
-<div class = "p-grid p-justify-center" *ngIf="album">  
-    <div *ngFor="let alb of album">
-        <p-card  class="p-col-3 " header="{{alb.nombre}}" [style]="{width: '360px'}" >
+<div class = "p-grid p-justify-center " *ngIf="albumesFiltrados">  
+    <div class="ui-card" *ngFor="let alb of albumesFiltrados">
+        <p-card  class="p-col-3 " [style]="{width: '400px'}" >
             <p-header>
-                <img src="Card" src="{{alb.imagen}}" >
+                <img src="{{alb.imagen}}" >
             </p-header>
+            <p-subheader>
+                {{alb.nombre}}
+            </p-subheader>
         </p-card>
     </div>
 </div>
