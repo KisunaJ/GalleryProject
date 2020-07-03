@@ -2,7 +2,7 @@
 
 <div class = "p-grid p-justify-center " *ngIf="albumesFiltrados">  
     <div class="ui-card" *ngFor="let alb of albumesFiltrados">
-        <p-card  class="p-col-3 " [style]="{width: '400px'}" >
+        <p-card  class="p-col-3 " routerLink="{{alb.urlTrabajos}}" [style]="{width: '400px'}" >
             <p-header>
                 <img src="{{alb.imagen}}" >
             </p-header>

@@ -1,59 +1,73 @@
 import { Component, OnInit } from '@angular/core';
 import { Imagen } from '../models/imagen';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-trabajos',
+  templateUrl: './trabajos.component.html',
+  styleUrls: ['./trabajos.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class TrabajosComponent implements OnInit {
+
+  titulo:string;
 
   imagenes: Imagen[] = [
 
     {
       id: 1,
       nombre: "Funeral peruano",
-      trabajo: "funeral peruano",
+      trabajo: "fosascomunes",
       descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
       ruta: "assets/Images/funeral peruano.jpg",
     },
     {
       id: 2,
       nombre: "Fosas comunes",
-      trabajo: "funeral peruano",
+      trabajo: "hojasdecoca",
       descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
       ruta: "assets/Images/Fosas comunes.jpg",
     },
     {
       id: 3,
       nombre: "Hojas de coca",
-      trabajo: "funeral peruano",
+      trabajo: "funeralperuano",
       descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
       ruta: "assets/Images/hojas de coca.jpg",
     },
     {
       id: 4,
       nombre: "Montañas de peru",
-      trabajo: "funeral peruano",
+      trabajo: "funeralperuano",
       descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
       ruta: "assets/Images/montañas de peru.jpg",
     },
     {
       id: 5,
       nombre: "Ritual de despedida",
-      trabajo: "funeral peruano",
+      trabajo: "fosascomunes",
       descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
       ruta: "assets/Images/ritual de despedida.jpg",
     },
 
   ]
 
+  arraytrabajos: Imagen[] = [];
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
 
+    this.activatedRoute.params.subscribe(result => 
+      {
+        // el valor que recibe suscribe se guardara en este caso en la variable "result"
+        //en este caso puedo obtener el valor de "titulo" segun el "routes"
+        this.titulo = result['trabajos'];
+
+        this.arraytrabajos = this.imagenes.filter(x => x.trabajo == this.titulo);
+
+      })
   }
 
-}
 
+}

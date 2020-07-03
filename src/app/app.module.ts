@@ -11,6 +11,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import {GalleriaModule} from 'primeng/galleria';
 import {CardModule} from 'primeng/card';
+import { TrabajosComponent } from './trabajos/trabajos.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {CardModule} from 'primeng/card';
     AppComponent,
     HeaderComponent,
     GalleryComponent,
-    HomeComponent
+    HomeComponent,
+    TrabajosComponent
   ],
   imports: [
     BrowserModule,
