@@ -37,7 +37,31 @@ export class GalleryComponent implements OnInit {
       nombre: "Hojas de coca",
       imagen: "assets/Images/hojas de coca.jpg",
       seccion: 2,
-    }
+    },
+    {
+      id: 5,
+      nombre: "Hojas de coca",
+      imagen: "assets/Images/hojas de coca.jpg",
+      seccion: 3,
+    },
+    {
+      id: 6,
+      nombre: "Fosas comunes",
+      imagen: "assets/Images/Fosas comunes.jpg",
+      seccion: 4,
+    },
+    {
+      id: 7,
+      nombre: "Fosas comunes",
+      imagen: "assets/Images/Fosas comunes.jpg",
+      seccion: 5,
+    },
+    {
+      id: 8,
+      nombre: "Fosas comunes",
+      imagen: "assets/Images/Fosas comunes.jpg",
+      seccion: 6,
+    },
   ];
 
   albumesFiltrados: album[] = [];
