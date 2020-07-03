@@ -1,6 +1,6 @@
 import { Secciones } from './enums/secciones';
 
-export class albumes {
+export class album {
   id: number;
   nombre: string;
   imagen: string;

@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { albumes} from '../models/albumes';
-import { Secciones } from '../models/enums/secciones';
-
+import { album } from '../models/album';
+import { Secciones, SeccionesLabel } from '../models/enums/secciones';
 
 
 @Component({
@@ -13,8 +12,8 @@ import { Secciones } from '../models/enums/secciones';
 export class GalleryComponent implements OnInit {
 
   titulo: string;
-  album: albumes[] = [
-   
+  albumes: album[] = [
+
     {
       id: 1,
       nombre: "Funeral peruano",
@@ -40,18 +39,20 @@ export class GalleryComponent implements OnInit {
       seccion: 2,
     }
   ];
-  
-  albumesFiltrados: albumes[] = [];
+
+  albumesFiltrados: album[] = [];
 
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
 
     this.activatedRoute.params.subscribe(result => {
-      this.titulo = result['albumes'];
+      let seccionUrl: string;
+      seccionUrl = result['albumes'];
+      this.titulo = SeccionesLabel.get(Secciones[seccionUrl]);
 
-      var idSeccion = Secciones[this.titulo];
-      this.albumesFiltrados = this.album.filter(x => x.seccion == idSeccion);
+      var idSeccion = Secciones[seccionUrl];
+      this.albumesFiltrados = this.albumes.filter(x => x.seccion == idSeccion);
     })
   }
 
