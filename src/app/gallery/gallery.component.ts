@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { album } from '../models/album';
 import { Secciones, SeccionesLabel } from '../models/enums/secciones';
+import { AlbumesService } from '../services/albumes.service';
 
 
 @Component({
@@ -74,7 +75,7 @@ export class GalleryComponent implements OnInit {
 
   albumesFiltrados: album[] = [];
 
-  constructor(private activatedRoute: ActivatedRoute) { }
+  constructor(private activatedRoute: ActivatedRoute, private albumesServices: AlbumesService) { }
 
   ngOnInit(): void {
 

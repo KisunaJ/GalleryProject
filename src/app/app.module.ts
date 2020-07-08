@@ -4,14 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import {ToolbarModule} from 'primeng/toolbar';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {ButtonModule} from 'primeng/button';
+import { ToolbarModule} from 'primeng/toolbar';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ButtonModule} from 'primeng/button';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
-import {GalleriaModule} from 'primeng/galleria';
-import {CardModule} from 'primeng/card';
+import { GalleriaModule} from 'primeng/galleria';
+import { CardModule} from 'primeng/card';
 import { TrabajosComponent } from './trabajos/trabajos.component';
+import { AlbumesService} from './services/albumes.service';
 
 
 @NgModule({
@@ -31,7 +32,11 @@ import { TrabajosComponent } from './trabajos/trabajos.component';
     GalleriaModule,
     CardModule,
   ],
-  providers: [],
+  providers: [
+
+    AlbumesService,
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
