@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Imagen } from '../models/imagen';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -48,11 +49,11 @@ export class HomeComponent implements OnInit {
 
   ]
 
-
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
-
+    //Se agrega esta linea para solventar el error preexistente en la primeng-galleria.js
+    this.router.navigate([this.router.url]);
   }
 
 }

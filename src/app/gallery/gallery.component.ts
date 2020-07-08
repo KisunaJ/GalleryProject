@@ -85,7 +85,7 @@ export class GalleryComponent implements OnInit {
 
       var idSeccion = Secciones[seccionUrl];
       this.albumesFiltrados = this.albumes.filter(x => x.seccion == idSeccion);
-    })
+    });
   }
 
 }

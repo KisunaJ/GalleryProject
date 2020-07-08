@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Imagen } from '../models/imagen';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 @Component({
@@ -53,20 +53,21 @@ export class TrabajosComponent implements OnInit {
   ]
 
   arraytrabajos: Imagen[] = [];
-
-  constructor(private activatedRoute: ActivatedRoute) { }
+  
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
+    //Se agrega esta linea para solventar el error preexistente en la primeng-galleria.js
+    this.router.navigate([this.router.url]);
 
     this.activatedRoute.params.subscribe(result => 
       {
         // el valor que recibe suscribe se guardara en este caso en la variable "result"
         //en este caso puedo obtener el valor de "titulo" segun el "routes"
         this.titulo = result['trabajos'];
-
+        
         this.arraytrabajos = this.imagenes.filter(x => x.trabajo == this.titulo);
-
-      })
+      });
   }
 
 
