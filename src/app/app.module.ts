@@ -13,6 +13,8 @@ import { GalleriaModule} from 'primeng/galleria';
 import { CardModule} from 'primeng/card';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { AlbumesService} from './services/albumes.service';
+import { BioComponent } from './bio/bio.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { AlbumesService} from './services/albumes.service';
     HeaderComponent,
     GalleryComponent,
     HomeComponent,
-    TrabajosComponent
+    TrabajosComponent,
+    BioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

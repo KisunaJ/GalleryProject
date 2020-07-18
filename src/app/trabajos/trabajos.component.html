@@ -1,6 +1,5 @@
 <div *ngIf="arraytrabajos">
-    <p-galleria [value]="arraytrabajos" [circular]="true" [autoPlay]="false"  [showItemNavigators]="true"
-    [showItemNavigatorsOnHover]="false" [showThumbnails]="false">
+    <p-galleria [value]="arraytrabajos" [circular]="true" [autoPlay]="false"  [showItemNavigators]="true" [showThumbnails]="false">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.ruta" [alt]="item.nombre" width="100%" />
         </ng-template> 
