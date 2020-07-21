@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Imagen } from '../models/imagen';
 import { Router } from '@angular/router';
+import { ImagenesService } from 'src/app/services/imagenes.service';
 
 @Component({
   selector: 'app-home',
@@ -9,51 +10,20 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  imagenes: Imagen[] = [
+  imagenesFiltradas: Imagen[] = [];
+  
 
-    {
-      id: 1,
-      nombre: "Funeral peruano",
-      trabajo: "funeral peruano",
-      descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
-      ruta: "assets/Images/funeral peruano.jpg",
-    },
-    {
-      id: 2,
-      nombre: "Fosas comunes",
-      trabajo: "funeral peruano",
-      descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
-      ruta: "assets/Images/Fosas comunes.jpg",
-    },
-    {
-      id: 3,
-      nombre: "Hojas de coca",
-      trabajo: "funeral peruano",
-      descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
-      ruta: "assets/Images/hojas de coca.jpg",
-    },
-    {
-      id: 4,
-      nombre: "Montañas de peru",
-      trabajo: "funeral peruano",
-      descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
-      ruta: "assets/Images/montañas de peru.jpg",
-    },
-    {
-      id: 5,
-      nombre: "Ritual de despedida",
-      trabajo: "funeral peruano",
-      descripcion: "En este espacio estara la descripcion de la imagen que usamos arriba",
-      ruta: "assets/Images/ritual de despedida.jpg",
-    },
-
-  ]
-
-  constructor(private router: Router) { }
+  constructor(private router: Router, private imagenesService: ImagenesService) { }
 
   ngOnInit(): void {
     //Se agrega esta linea para solventar el error preexistente en la primeng-galleria.js
     this.router.navigate([this.router.url]);
+    
+    this.imagenesService.filtraImagenesHome().subscribe(imagenes => {
+      
+      this.imagenesFiltradas = imagenes;
+    });
+
   }
 
 }
