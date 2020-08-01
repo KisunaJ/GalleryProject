@@ -1,0 +1,9 @@
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.deps.json
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csprojAssemblyReference.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfoInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfo.cs
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CoreCompileInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.pdb

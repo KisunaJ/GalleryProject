@@ -1,0 +1,9 @@
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.deps.json
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.pdb
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.csprojAssemblyReference.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.AssemblyInfoInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.AssemblyInfo.cs
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.pdb

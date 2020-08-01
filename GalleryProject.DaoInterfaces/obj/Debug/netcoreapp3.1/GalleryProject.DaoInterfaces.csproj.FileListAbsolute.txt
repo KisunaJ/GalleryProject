@@ -1,0 +1,9 @@
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.deps.json
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.pdb
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.csprojAssemblyReference.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.AssemblyInfoInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.AssemblyInfo.cs
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.dll
+C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.pdb

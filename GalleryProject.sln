@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.WebController", "GalleryProject\GalleryProject.WebController.csproj", "{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.Business", "GalleryProject.Business\GalleryProject.Business.csproj", "{2116B2F0-CAF0-45DE-8DF7-272903ABC998}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.Dao", "GalleryProject.Dao\GalleryProject.Dao.csproj", "{D4C4876C-2208-46B6-8E75-19279D0812B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.BusinessInterfaces", "GalleryProject.BusinessInterfaces\GalleryProject.BusinessInterfaces.csproj", "{E5629268-D50E-436E-B2EA-ECB832DA924D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.DaoInterfaces", "GalleryProject.DaoInterfaces\GalleryProject.DaoInterfaces.csproj", "{DA2E7A74-527A-4765-B86D-2BE00566FD40}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebsiteAngular", "WebsiteAngular\", "{C649C945-1680-487C-93E1-5FDEFE826A27}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51250"
+		Debug.AspNetCompiler.PhysicalPath = "WebsiteAngular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51250\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51250"
+		Release.AspNetCompiler.PhysicalPath = "WebsiteAngular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51250\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51250"
+		SlnRelativePath = "WebsiteAngular\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2116B2F0-CAF0-45DE-8DF7-272903ABC998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2116B2F0-CAF0-45DE-8DF7-272903ABC998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2116B2F0-CAF0-45DE-8DF7-272903ABC998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2116B2F0-CAF0-45DE-8DF7-272903ABC998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C4876C-2208-46B6-8E75-19279D0812B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C4876C-2208-46B6-8E75-19279D0812B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C4876C-2208-46B6-8E75-19279D0812B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C4876C-2208-46B6-8E75-19279D0812B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5629268-D50E-436E-B2EA-ECB832DA924D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5629268-D50E-436E-B2EA-ECB832DA924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5629268-D50E-436E-B2EA-ECB832DA924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5629268-D50E-436E-B2EA-ECB832DA924D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2E7A74-527A-4765-B86D-2BE00566FD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2E7A74-527A-4765-B86D-2BE00566FD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2E7A74-527A-4765-B86D-2BE00566FD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2E7A74-527A-4765-B86D-2BE00566FD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C649C945-1680-487C-93E1-5FDEFE826A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C649C945-1680-487C-93E1-5FDEFE826A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C649C945-1680-487C-93E1-5FDEFE826A27}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C649C945-1680-487C-93E1-5FDEFE826A27}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9EFB0E3-2B7C-43DF-8A4A-8DC102AADC53}
+	EndGlobalSection
+EndGlobal
