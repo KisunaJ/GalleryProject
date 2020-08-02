@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.WebController", "GalleryProject\GalleryProject.WebController.csproj", "{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.Services", "GalleryProject\GalleryProject.Services.csproj", "{018F8570-9A9E-4BD5-BF2F-1788B314E8D3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.Business", "GalleryProject.Business\GalleryProject.Business.csproj", "{2116B2F0-CAF0-45DE-8DF7-272903ABC998}"
 EndProject
@@ -33,6 +33,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebsiteAngular", "WebsiteAn
 		VWDPort = "51250"
 		SlnRelativePath = "WebsiteAngular\"
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalleryProject.Services.Dependencies", "GalleryProject.Services.Dependencies\GalleryProject.Services.Dependencies.csproj", "{A7D50D5F-5490-4280-BECA-8793A20B6162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryProject.Domain", "GalleryProject.Domain\GalleryProject.Domain.csproj", "{9240BDDD-A9DE-4C7C-8FC6-EBC408EE2596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +68,14 @@ Global
 		{C649C945-1680-487C-93E1-5FDEFE826A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C649C945-1680-487C-93E1-5FDEFE826A27}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C649C945-1680-487C-93E1-5FDEFE826A27}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A7D50D5F-5490-4280-BECA-8793A20B6162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D50D5F-5490-4280-BECA-8793A20B6162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D50D5F-5490-4280-BECA-8793A20B6162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D50D5F-5490-4280-BECA-8793A20B6162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9240BDDD-A9DE-4C7C-8FC6-EBC408EE2596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9240BDDD-A9DE-4C7C-8FC6-EBC408EE2596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9240BDDD-A9DE-4C7C-8FC6-EBC408EE2596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9240BDDD-A9DE-4C7C-8FC6-EBC408EE2596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

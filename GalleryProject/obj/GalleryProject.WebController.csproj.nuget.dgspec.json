@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mores\\Documents\\Proyecto Angular\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj": {}
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mores\\Documents\\Proyecto Angular\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj": {
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mores\\Documents\\Proyecto Angular\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj",
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj",
         "projectName": "GalleryProject",
-        "projectPath": "C:\\Users\\Mores\\Documents\\Proyecto Angular\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj",
-        "packagesPath": "C:\\Users\\Mores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mores\\Documents\\Proyecto Angular\\GalleryProject\\GalleryProject\\obj\\",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.WebController.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

@@ -7,3 +7,17 @@ C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CoreCompileInputs.cache
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.dll
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.DaoInterfaces.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CoreCompileInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CopyComplete

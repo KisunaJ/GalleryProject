@@ -1,0 +1,565 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj",
+        "projectName": "GalleryProject.BusinessInterfaces",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\GalleryProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\GalleryProject.Business.csproj",
+        "projectName": "GalleryProject.Business",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\GalleryProject.Business.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj"
+              },
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj",
+        "projectName": "GalleryProject.DaoInterfaces",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\GalleryProject.Dao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\GalleryProject.Dao.csproj",
+        "projectName": "GalleryProject.Dao",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\GalleryProject.Dao.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.DaoInterfaces\\GalleryProject.DaoInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj",
+        "projectName": "GalleryProject.Domain",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\GalleryProject.Services.Dependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\GalleryProject.Services.Dependencies.csproj",
+        "projectName": "GalleryProject.Services.Dependencies",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\GalleryProject.Services.Dependencies.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj"
+              },
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\GalleryProject.Business.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Business\\GalleryProject.Business.csproj"
+              },
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\GalleryProject.Dao.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Dao\\GalleryProject.Dao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.Services.csproj",
+        "projectName": "GalleryProject",
+        "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\GalleryProject.Services.csproj",
+        "packagesPath": "C:\\Users\\EC7000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EC7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj"
+              },
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj"
+              },
+              "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\GalleryProject.Services.Dependencies.csproj": {
+                "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Services.Dependencies\\GalleryProject.Services.Dependencies.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

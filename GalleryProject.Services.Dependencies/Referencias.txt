@@ -1,0 +1,3 @@
+﻿Swagger Configuration
+	https://medium.com/@didourebai/add-swagger-to-asp-net-core-3-0-web-api-874cb265854c
+
