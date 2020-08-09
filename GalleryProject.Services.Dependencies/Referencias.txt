@@ -1,3 +1,6 @@
 ﻿Swagger Configuration
-	https://medium.com/@didourebai/add-swagger-to-asp-net-core-3-0-web-api-874cb265854c
+	- https://medium.com/@didourebai/add-swagger-to-asp-net-core-3-0-web-api-874cb265854c
 
+Entity Framework Core 3.1.6
+	- https://www.youtube.com/watch?v=g3ekrMJkXiA
+	- https://www.fixedbuffer.com/entity-framework-core-2/

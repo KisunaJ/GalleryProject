@@ -1,7 +1,7 @@
 ﻿using GalleryProject.Business;
-using GalleryProject.BusinessInterfaces;
+using GalleryProject.Business.Contracts;
 using GalleryProject.Dao;
-using GalleryProject.DaoInterfaces;
+using GalleryProject.Dao.Contracts;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;

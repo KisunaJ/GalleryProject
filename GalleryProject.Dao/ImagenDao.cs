@@ -1,4 +1,4 @@
-﻿using GalleryProject.DaoInterfaces;
+﻿using GalleryProject.Dao.Contracts;
 using GalleryProject.Domain;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace GalleryProject.Dao
                 Id = idImagen,
                 Nombre = "Imagen de Prueba",
                 Descripcion = "La mejor imagen de prueba",
-                Trabajo = "Trabajo",
+                AlbumId = 1,
                 Ruta = "C:/rutaImportante/Imagen de Prueba.jpg" };
             return imagen;
         }
