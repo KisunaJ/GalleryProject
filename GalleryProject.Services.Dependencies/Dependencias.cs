@@ -1,4 +1,5 @@
-﻿using GalleryProject.Business;
+﻿using AutoMapper;
+using GalleryProject.Business;
 using GalleryProject.Business.Contracts;
 using GalleryProject.Dao;
 using GalleryProject.Dao.Contracts;
@@ -12,6 +13,8 @@ namespace GalleryProject.Services.Dependencies
     {
         public static void ConfigurarDependencias(IServiceCollection services, IConfiguration configuration)
         {
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddScoped<IImagenBusiness, ImagenBusiness>();
             services.AddScoped<IImagenDao, ImagenDao>();
         }

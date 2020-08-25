@@ -7,3 +7,23 @@ C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Business
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.csproj.CoreCompileInputs.cache
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.dll
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Business.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Business.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Business.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Common.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Common.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.csproj.CopyComplete
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Business\obj\Debug\netcoreapp3.1\GalleryProject.Business.csproj.CoreCompileInputs.cache

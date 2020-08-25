@@ -7,3 +7,26 @@ C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CoreCompileInputs.cache
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.dll
 C:\Users\Mores\Documents\Proyecto Angular\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.runtimeconfig.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.runtimeconfig.dev.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Common.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Common.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CopyComplete
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.genruntimeconfig.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Repository.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\bin\Debug\netcoreapp3.1\GalleryProject.Repository.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Dao\obj\Debug\netcoreapp3.1\GalleryProject.Dao.csproj.CoreCompileInputs.cache

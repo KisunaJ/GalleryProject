@@ -1,5 +1,4 @@
-﻿using GalleryProject.Repository.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,9 +10,11 @@ namespace GalleryProject.Domain
 
         public string Nombre { get; set; }
 
-        public int AlbumId { get; set; }
-
         public string Descripcion { get; set; }
+
+        public Album Album { get; set; }
+        
+        public Album Portada { get; set; }
 
         public string Ruta { get; set; }
     }

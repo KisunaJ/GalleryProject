@@ -11,11 +11,8 @@ namespace GalleryProject.Repository.Entities
     public class Album : BaseEntity
     {
         [Required]
-        [MaxLength(200)]
+        [MaxLength(100)]
         public string Nombre { get; set; }
-
-        [ForeignKey("ImagenId")]
-        public virtual Imagen Imagen { get; set; }
 
         [Required]
         public Secciones Seccion { get; set; }

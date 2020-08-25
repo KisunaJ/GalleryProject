@@ -1,0 +1,16 @@
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Common.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Common.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.csproj.CopyComplete
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Business.Contracts.csproj.CoreCompileInputs.cache

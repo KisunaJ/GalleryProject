@@ -33,9 +33,6 @@ namespace GalleryProject.Repository.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ImagenId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(200)")
                         .HasMaxLength(200);
@@ -45,15 +42,13 @@ namespace GalleryProject.Repository.Migrations
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<byte>("Seccion")
                         .HasColumnType("tinyint");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ImagenId");
 
                     b.ToTable("Albumes");
                 });
@@ -65,8 +60,7 @@ namespace GalleryProject.Repository.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AlbumId")
-                        .IsRequired()
+                    b.Property<int>("AlbumId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedBy")
@@ -91,32 +85,33 @@ namespace GalleryProject.Repository.Migrations
                         .HasColumnType("nvarchar(200)")
                         .HasMaxLength(200);
 
+                    b.Property<int?>("PortadaId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Ruta")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AlbumId")
-                        .IsUnique();
+                    b.HasIndex("AlbumId");
+
+                    b.HasIndex("PortadaId");
 
                     b.ToTable("Imagenes");
-                });
-
-            modelBuilder.Entity("GalleryProject.Repository.Entities.Album", b =>
-                {
-                    b.HasOne("GalleryProject.Repository.Entities.Imagen", "Imagen")
-                        .WithMany()
-                        .HasForeignKey("ImagenId");
                 });
 
             modelBuilder.Entity("GalleryProject.Repository.Entities.Imagen", b =>
                 {
                     b.HasOne("GalleryProject.Repository.Entities.Album", "Album")
-                        .WithOne()
-                        .HasForeignKey("GalleryProject.Repository.Entities.Imagen", "AlbumId")
+                        .WithMany()
+                        .HasForeignKey("AlbumId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("GalleryProject.Repository.Entities.Album", "Portada")
+                        .WithMany()
+                        .HasForeignKey("PortadaId");
                 });
 #pragma warning restore 612, 618
         }

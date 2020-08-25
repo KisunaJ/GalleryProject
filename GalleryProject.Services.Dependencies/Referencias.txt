@@ -4,3 +4,8 @@
 Entity Framework Core 3.1.6
 	- https://www.youtube.com/watch?v=g3ekrMJkXiA
 	- https://www.fixedbuffer.com/entity-framework-core-2/
+	- https://www.youtube.com/watch?v=sSn6pWTNUTU
+
+AutoMapper
+	- https://code-maze.com/automapper-net-core/
+	- https://procodeguide.com/programming/automapper-in-asp-net-core/

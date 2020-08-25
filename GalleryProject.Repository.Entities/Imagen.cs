@@ -16,8 +16,14 @@ namespace GalleryProject.Repository.Entities
         public string Descripcion { get; set; }
 
         [Required]
-        [ForeignKey("AlbumId")]
+        public int AlbumId { get; set; }
+
         public virtual Album Album { get; set; }
+
+        [ForeignKey("Portada")]
+        public int? PortadaId { get; set; }
+
+        public virtual Album Portada { get; set; }
 
         [Required]
         public string Ruta { get; set; }
