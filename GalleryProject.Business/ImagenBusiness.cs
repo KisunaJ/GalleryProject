@@ -1,6 +1,7 @@
 ﻿using GalleryProject.Business.Contracts;
 using GalleryProject.Dao.Contracts;
 using GalleryProject.Domain;
+using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,9 +16,11 @@ namespace GalleryProject.Business
             this.imagenDao = imagenDao;
         }
 
-        public int ObtenerImagenRandom(int maxRange, int minRange)
+        public Imagen AgregarImagenDePrueba(Imagen imagen)
         {
-            return new Random().Next(maxRange, minRange);
+            imagen.Nombre = "Prueba_" + imagen.Nombre;
+            var result = imagenDao.AgregarImagenDePrueba(imagen);
+            return result;
         }
 
         public Imagen ObtenerImagenPor(int idImagen)

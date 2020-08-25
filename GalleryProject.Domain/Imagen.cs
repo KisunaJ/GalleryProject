@@ -12,8 +12,12 @@ namespace GalleryProject.Domain
 
         public string Descripcion { get; set; }
 
+        public int AlbumId { get; set; }
+
         public Album Album { get; set; }
-        
+
+        public int? PortadaId { get; set; }
+
         public Album Portada { get; set; }
 
         public string Ruta { get; set; }

@@ -19,57 +19,49 @@ namespace GalleryProject.Dao
     {
         private readonly IMapper mapper;
 
-        public ImagenDao (IMapper mapper)
+        public ImagenDao(IMapper mapper)
         {
             this.mapper = mapper;
         }
 
-        public Domain.Imagen ObtenerImagenPor(int idImagen)
+        public Imagen AgregarImagenDePrueba(Imagen imagen)
         {
-            var imagen = new Entity.Imagen()
+            var imagenAgregar = mapper.Map<Entity.Imagen>(imagen);
+            imagenAgregar.CreatedBy = "El Gonzalín";
+            imagenAgregar.CreatedDate = DateTime.Now;
+            Entity.Imagen agregado;
+            try
             {
-                Nombre = "Imagen de Prueba",
-                Descripcion = "La mejor imagen de prueba",
-                PortadaId = 3,
-                AlbumId = 3,
-                Ruta = "C:/rutaImportante/Imagen de Prueba.jpg",
-                CreatedBy = "ElGonzalin",
-                CreatedDate = DateTime.Now,
-                ModifiedBy = null,
-                ModifiedDate = null
-            };
-
-            Entity.Imagen imagenResult;
-
-            using (var context = new GalleryProjectDBContext())
-            {
-                var albumes = context.Albumes.ToList();
-                if (!albumes.Any())
+                using (var context = new GalleryProjectDBContext())
                 {
-                    //El id del album se genera automaticamente por el Identity, pero lo obtendrás cuando hagas el SaveChanges()
-                    var album = new Entity.Album() { Nombre = "Album de Prueba", Seccion = Secciones.Peru, CreatedBy = "LaJennycita", CreatedDate = DateTime.Now, ModifiedBy = null, ModifiedDate = null };
-                    context.Albumes.Add(album);
+                    //Al añadir la imagen, la base nos devuelve la copia del objeto insertado
+                    //El id aparecerá en ese objeto insertado despues de guardar los cambios.
+                    agregado = context.Imagenes.Add(imagenAgregar).Entity;
                     context.SaveChanges();
-                    imagen.AlbumId = album.Id;
-                    imagen.PortadaId = album.Id;
-
-                    //Otra forma de hacer lo mismo que arriba, al añadir la imagen, la base nos devuelve la copia del objeto insertado
-                    //Nuevamente el id aparecerá en ese objeto insertado despues de guardar los cambios.
-                    var agregado = context.Imagenes.Add(imagen).Entity;
-                    context.SaveChanges();
-                    idImagen = agregado.Id;
-                }
-                else
-                {
-                    var agregado = context.Imagenes.Add(imagen).Entity;
-                    context.SaveChanges();
-                    idImagen = agregado.Id;
                 }
             }
-
-            using (var context = new GalleryProjectDBContext())
+            catch (Exception ex)
             {
-                imagenResult = context.Imagenes.Include(x => x.Album).Where(x => x.Id == idImagen).FirstOrDefault();
+                throw new Exception("Ha ocurrido un error al intentar insertar la imagen de prueba", ex);
+            }
+
+            var domainImagen = mapper.Map<Domain.Imagen>(agregado);
+            return domainImagen;
+        }
+
+        public Domain.Imagen ObtenerImagenPor(int idImagen)
+        {
+            Entity.Imagen imagenResult;
+            try
+            {
+                using (var context = new GalleryProjectDBContext())
+                {
+                    imagenResult = context.Imagenes.Include(x => x.Album).Where(x => x.Id == idImagen).FirstOrDefault();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ha ocurrido un error al intentar traer la imagen de prueba con Id: " + idImagen, ex);
             }
 
             var domainImagen = mapper.Map<Domain.Imagen>(imagenResult);

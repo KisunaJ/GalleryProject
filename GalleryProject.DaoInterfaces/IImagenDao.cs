@@ -7,6 +7,8 @@ namespace GalleryProject.Dao.Contracts
 {
     public interface IImagenDao
     {
+        Imagen AgregarImagenDePrueba(Imagen imagen);
+
         Imagen ObtenerImagenPor(int idImagen);
     }
 }

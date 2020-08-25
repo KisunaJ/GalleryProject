@@ -19,10 +19,12 @@ namespace GalleryProject.Controllers
             this.imagenBusiness = imagenBusiness;
         }
 
-        [HttpGet("[action]")]
-        public int GetRandomImagen()
+        [HttpPost("[action]")]
+        public Imagen AddImagenDePrueba(string nombre, string descripcion, int idAlbum, string ruta, bool EsPortada)
         {
-            return imagenBusiness.ObtenerImagenRandom(0, 5);
+            var imagen = new Imagen { Nombre = nombre, Descripcion = descripcion, AlbumId = idAlbum, Ruta = ruta };
+            imagen.PortadaId = EsPortada == true ? (int?)idAlbum : null;
+            return imagenBusiness.AgregarImagenDePrueba(imagen);
         }
 
         [HttpGet("[action]")]

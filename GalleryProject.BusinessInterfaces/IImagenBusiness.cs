@@ -7,7 +7,7 @@ namespace GalleryProject.Business.Contracts
 {
     public interface IImagenBusiness
     {
-        int ObtenerImagenRandom(int maxRange, int minRange);
+        Imagen AgregarImagenDePrueba(Imagen imagen);
 
         Imagen ObtenerImagenPor(int idImagen);
     }
