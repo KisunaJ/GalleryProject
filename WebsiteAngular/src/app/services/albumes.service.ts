@@ -1,79 +1,74 @@
 import { Injectable } from '@angular/core';
-import { album } from '../models/album';
+import { Album } from '../models/album';
 import { Observable, of } from 'rxjs';
-
 
 @Injectable({
   providedIn: 'root'
 })
 export class AlbumesService {
 
-  albumes: album[] = [
-
+  albumes: Album[] = [
     {
       id: 1,
       nombre: "Paisajes",
-      imagen: "assets/Images/Colombia/Paisajes/paisajes.jpg",
-      urlTrabajos:"/trabajos/PaisajesColombianos",
+      //portada: "assets/Images/Colombia/Paisajes/paisajes.jpg",
+      url:"/trabajos/PaisajesColombianos",
       seccion: 1,
     },
     {
       id: 2,
       nombre: "Reservas Nacionales",
-      imagen: "assets/Images/Colombia/Reservas Naturales/PARQUE NACIONAL NATURAL SERRANÍA DE CHIRIBIQUETE.jpg",
-      urlTrabajos:"/trabajos/ReservasColombianas",
+      //portada: "assets/Images/Colombia/Reservas Naturales/PARQUE NACIONAL NATURAL SERRANÍA DE CHIRIBIQUETE.jpg",
+      url:"/trabajos/ReservasColombianas",
       seccion: 1,
     },
     {
       id: 3,
       nombre: "Fauna",
-      imagen: "assets/Images/Colombia/Fauna/faunacolombia.jpg",
-      urlTrabajos:"/trabajos/FaunaColombiana",
+      //portada: "assets/Images/Colombia/Fauna/faunacolombia.jpg",
+      url:"/trabajos/FaunaColombiana",
       seccion: 1,
     },
     {
       id: 4,
       nombre: "Paisajes",
-      urlTrabajos:"/trabajos/PaisajesArgentinos",
-      imagen: "assets/Images/Guatemala/guatemala.jpg",
+      //portada: "assets/Images/Guatemala/guatemala.jpg",
+      url:"/trabajos/PaisajesArgentinos",
       seccion: 2,
     },
     {
       id: 5,
       nombre: "Reservas Nacionales",
-      urlTrabajos:"/trabajos/ReservasArgentinas",
-      imagen: "assets/Images/Guatemala/reservas.jpg",
+      //portada: "assets/Images/Guatemala/reservas.jpg",
+      url:"/trabajos/ReservasArgentinas",
       seccion: 2,
     },
     {
       id: 6,
       nombre: "Fauna",
-      urlTrabajos:"/trabajos/FaunaArgentina",
-      imagen: "assets/Images/Guatemala/fauna.jpg",
+      //portada: "assets/Images/Guatemala/fauna.jpg",
+      url:"/trabajos/FaunaArgentina",
       seccion: 2,
     },
     {
       id: 7,
       nombre: "Fosas comunes",
-      urlTrabajos:"/trabajos/fosascomunes",
-      imagen: "assets/Images/Fosas comunes.jpg",
+      //portada: "assets/Images/Fosas comunes.jpg",
+      url:"/trabajos/fosascomunes",
       seccion: 5,
     },
     {
       id: 8,
       nombre: "Fosas comunes",
-      urlTrabajos:"/trabajos/fosascomunes",
-      imagen: "assets/Images/Fosas comunes.jpg",
+      //portada: "assets/Images/Fosas comunes.jpg",
+      url:"/trabajos/fosascomunes",
       seccion: 6,
     },
   ];
 
   constructor() { }
 
-  traerAlbumesPor(seccion: number): Observable<album[]> {
-
-    
+  traerAlbumesPor(seccion: number): Observable<Album[]> {    
     return of(this.albumes.filter(x => x.seccion == seccion))
-
   }
 }

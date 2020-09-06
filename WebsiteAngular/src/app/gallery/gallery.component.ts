@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { album } from '../models/album';
+import { Album } from '../models/album';
 import { Secciones, SeccionesLabel } from '../models/enums/secciones';
 import { AlbumesService } from '../services/albumes.service';
 
@@ -14,7 +14,7 @@ export class GalleryComponent implements OnInit {
 
   titulo: string;
   
-  albumesFiltrados: album[] = [];
+  albumesFiltrados: Album[] = [];
 
   constructor(private activatedRoute: ActivatedRoute, private albumesServices: AlbumesService) { }
 

@@ -23,14 +23,16 @@ namespace GalleryProject.Controllers
         public Imagen AddImagenDePrueba(string nombre, string descripcion, int idAlbum, string ruta, bool EsPortada)
         {
             var imagen = new Imagen { Nombre = nombre, Descripcion = descripcion, AlbumId = idAlbum, Ruta = ruta };
-            imagen.PortadaId = EsPortada == true ? (int?)idAlbum : null;
+            //portadaid si es true serra igual a el valor de idAlbum, en caso de ser false sera la opcion despues de los dos puntos (:)
+            imagen.PortadaId = EsPortada == true ? (int?)idAlbum : null; //el ? es el if y los : es el else.
             return imagenBusiness.AgregarImagenDePrueba(imagen);
         }
 
-        [HttpGet("[action]")]
-        public Imagen GetImagenBy(int idImagen)
+        [HttpGet("{id}")]
+        public ActionResult<Imagen> GetImagenBy(int id)
         {
-            return imagenBusiness.ObtenerImagenPor(idImagen);
+            var result = imagenBusiness.ObtenerImagenPor(id);
+            return Ok(result);
         }
     }
 }
