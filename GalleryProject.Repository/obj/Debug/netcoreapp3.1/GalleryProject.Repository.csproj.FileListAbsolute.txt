@@ -1,0 +1,17 @@
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.runtimeconfig.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.runtimeconfig.dev.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Common.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\bin\Debug\netcoreapp3.1\GalleryProject.Common.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.csproj.CopyComplete
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.genruntimeconfig.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.Repository\obj\Debug\netcoreapp3.1\GalleryProject.Repository.csproj.CoreCompileInputs.cache

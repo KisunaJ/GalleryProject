@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "AutoMapper/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "[10.0.0, 11.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -20,7 +47,7 @@
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -94,6 +121,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
@@ -810,20 +853,13 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.Reflection.Emit/4.3.0": {
+      "System.Reflection.Emit/4.7.0": {
         "type": "package",
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
         "compile": {
-          "ref/netstandard1.1/_._": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -1331,86 +1367,81 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "GalleryProject.BusinessInterfaces": "1.0.0",
-          "GalleryProject.DaoInterfaces": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
-          "Microsoft.Extensions.Configuration": "3.1.6",
-          "Swashbuckle.AspNetCore": "5.5.1"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "GalleryProject.Business.Contracts": "1.0.0",
+          "GalleryProject.Dao.Contracts": "1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "bin/placeholder/GalleryProject.Business.dll": {}
         },
         "runtime": {
           "bin/placeholder/GalleryProject.Business.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
-      "GalleryProject.BusinessInterfaces/1.0.0": {
+      "GalleryProject.Business.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "GalleryProject.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
-          "Microsoft.Extensions.Configuration": "3.1.6",
-          "Swashbuckle.AspNetCore": "5.5.1"
+          "GalleryProject.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/GalleryProject.BusinessInterfaces.dll": {}
+          "bin/placeholder/GalleryProject.Business.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GalleryProject.BusinessInterfaces.dll": {}
+          "bin/placeholder/GalleryProject.Business.Contracts.dll": {}
+        }
+      },
+      "GalleryProject.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1"
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "compile": {
+          "bin/placeholder/GalleryProject.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GalleryProject.Common.dll": {}
+        }
       },
       "GalleryProject.Dao/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "GalleryProject.DaoInterfaces": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.6",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "GalleryProject.Dao.Contracts": "1.0.0",
+          "GalleryProject.Repository": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
-          "Microsoft.Extensions.Configuration": "3.1.6",
-          "Swashbuckle.AspNetCore": "5.5.1"
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "bin/placeholder/GalleryProject.Dao.dll": {}
         },
         "runtime": {
           "bin/placeholder/GalleryProject.Dao.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
-      "GalleryProject.DaoInterfaces/1.0.0": {
+      "GalleryProject.Dao.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "GalleryProject.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
-          "Microsoft.Extensions.Configuration": "3.1.6",
-          "Swashbuckle.AspNetCore": "5.5.1"
+          "GalleryProject.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/GalleryProject.DaoInterfaces.dll": {}
+          "bin/placeholder/GalleryProject.Dao.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GalleryProject.DaoInterfaces.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/GalleryProject.Dao.Contracts.dll": {}
+        }
       },
       "GalleryProject.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GalleryProject.Repository.Entities": "1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.6"
+        },
         "compile": {
           "bin/placeholder/GalleryProject.Domain.dll": {}
         },
@@ -1418,14 +1449,45 @@
           "bin/placeholder/GalleryProject.Domain.dll": {}
         }
       },
+      "GalleryProject.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GalleryProject.Repository.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
+          "Microsoft.Extensions.Configuration": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/GalleryProject.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GalleryProject.Repository.dll": {}
+        }
+      },
+      "GalleryProject.Repository.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GalleryProject.Common": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
+          "Microsoft.Extensions.Configuration": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/GalleryProject.Repository.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GalleryProject.Repository.Entities.dll": {}
+        }
+      },
       "GalleryProject.Services.Dependencies/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "GalleryProject.Business": "1.0.0",
-          "GalleryProject.BusinessInterfaces": "1.0.0",
+          "GalleryProject.Business.Contracts": "1.0.0",
           "GalleryProject.Dao": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.6",
+          "GalleryProject.Repository": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
           "Microsoft.Extensions.Configuration": "3.1.6",
           "Swashbuckle.AspNetCore": "5.5.1"
@@ -1443,6 +1505,35 @@
     }
   },
   "libraries": {
+    "AutoMapper/10.0.0": {
+      "sha512": "T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+      "type": "package",
+      "path": "automapper/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.10.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+      "sha512": "hhUzmc8Ld7wCuVHJFodsxtPmFqBAhB6nUNQUgaMF3uamQdxOLxntG0dwv+5ApC67GABa8Oay8MEYGg5IgVZP1Q==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1495,10 +1586,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1511,6 +1602,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1520,7 +1612,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1646,6 +1738,22 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/3.1.6": {
+      "sha512": "ji+fRRy6WpH9B1JRTTVSdIHSqHPMFD/ghmlbOENXa2pxyujEAno8Gtn6dDXl5UJbptCInzqoOpTl3W9etQKIMA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
@@ -3447,26 +3555,34 @@
         "system.reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "type": "package",
-      "path": "system.reflection.emit/4.3.0",
+      "path": "system.reflection.emit/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
-        "lib/monotouch10/_._",
+        "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
         "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
         "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
         "ref/netstandard1.1/System.Reflection.Emit.xml",
         "ref/netstandard1.1/de/System.Reflection.Emit.xml",
@@ -3478,9 +3594,19 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "system.reflection.emit.4.3.0.nupkg.sha512",
-        "system.reflection.emit.nuspec"
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -5222,25 +5348,40 @@
       "path": "../GalleryProject.Business/GalleryProject.Business.csproj",
       "msbuildProject": "../GalleryProject.Business/GalleryProject.Business.csproj"
     },
-    "GalleryProject.BusinessInterfaces/1.0.0": {
+    "GalleryProject.Business.Contracts/1.0.0": {
       "type": "project",
-      "path": "../GalleryProject.BusinessInterfaces/GalleryProject.BusinessInterfaces.csproj",
-      "msbuildProject": "../GalleryProject.BusinessInterfaces/GalleryProject.BusinessInterfaces.csproj"
+      "path": "../GalleryProject.BusinessInterfaces/GalleryProject.Business.Contracts.csproj",
+      "msbuildProject": "../GalleryProject.BusinessInterfaces/GalleryProject.Business.Contracts.csproj"
+    },
+    "GalleryProject.Common/1.0.0": {
+      "type": "project",
+      "path": "../GalleryProject.Common/GalleryProject.Common.csproj",
+      "msbuildProject": "../GalleryProject.Common/GalleryProject.Common.csproj"
     },
     "GalleryProject.Dao/1.0.0": {
       "type": "project",
       "path": "../GalleryProject.Dao/GalleryProject.Dao.csproj",
       "msbuildProject": "../GalleryProject.Dao/GalleryProject.Dao.csproj"
     },
-    "GalleryProject.DaoInterfaces/1.0.0": {
+    "GalleryProject.Dao.Contracts/1.0.0": {
       "type": "project",
-      "path": "../GalleryProject.DaoInterfaces/GalleryProject.DaoInterfaces.csproj",
-      "msbuildProject": "../GalleryProject.DaoInterfaces/GalleryProject.DaoInterfaces.csproj"
+      "path": "../GalleryProject.DaoInterfaces/GalleryProject.Dao.Contracts.csproj",
+      "msbuildProject": "../GalleryProject.DaoInterfaces/GalleryProject.Dao.Contracts.csproj"
     },
     "GalleryProject.Domain/1.0.0": {
       "type": "project",
       "path": "../GalleryProject.Domain/GalleryProject.Domain.csproj",
       "msbuildProject": "../GalleryProject.Domain/GalleryProject.Domain.csproj"
+    },
+    "GalleryProject.Repository/1.0.0": {
+      "type": "project",
+      "path": "../GalleryProject.Repository/GalleryProject.Repository.csproj",
+      "msbuildProject": "../GalleryProject.Repository/GalleryProject.Repository.csproj"
+    },
+    "GalleryProject.Repository.Entities/1.0.0": {
+      "type": "project",
+      "path": "../GalleryProject.Repository.Entities/GalleryProject.Repository.Entities.csproj",
+      "msbuildProject": "../GalleryProject.Repository.Entities/GalleryProject.Repository.Entities.csproj"
     },
     "GalleryProject.Services.Dependencies/1.0.0": {
       "type": "project",
@@ -5250,11 +5391,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "GalleryProject.BusinessInterfaces >= 1.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
+      "GalleryProject.Business.Contracts >= 1.0.0",
       "GalleryProject.Domain >= 1.0.0",
       "GalleryProject.Services.Dependencies >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.6",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.6",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
       "Microsoft.Extensions.Configuration >= 3.1.6",
       "Swashbuckle.AspNetCore >= 5.5.1"
     ]
@@ -5290,8 +5431,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj": {
-              "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.BusinessInterfaces.csproj"
+            "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.Business.Contracts.csproj": {
+              "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.BusinessInterfaces\\GalleryProject.Business.Contracts.csproj"
             },
             "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj": {
               "projectPath": "C:\\Users\\EC7000\\Documents\\GitHub\\GalleryProject\\GalleryProject.Domain\\GalleryProject.Domain.csproj"
@@ -5311,11 +5452,13 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[3.1.6, )"
+            "version": "[8.0.1, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.6, )"
           },
@@ -5346,7 +5489,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

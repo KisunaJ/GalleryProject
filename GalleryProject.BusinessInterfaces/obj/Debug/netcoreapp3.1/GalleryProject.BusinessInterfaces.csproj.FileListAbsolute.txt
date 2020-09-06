@@ -17,5 +17,4 @@ C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterface
 C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.pdb
 C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
 C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
-C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.csproj.CoreCompileInputs.cache
 C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.BusinessInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.BusinessInterfaces.csproj.CopyComplete

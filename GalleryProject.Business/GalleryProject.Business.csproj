@@ -5,15 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GalleryProject.BusinessInterfaces\GalleryProject.BusinessInterfaces.csproj" />
-    <ProjectReference Include="..\GalleryProject.DaoInterfaces\GalleryProject.DaoInterfaces.csproj" />
+    <ProjectReference Include="..\GalleryProject.BusinessInterfaces\GalleryProject.Business.Contracts.csproj" />
+    <ProjectReference Include="..\GalleryProject.DaoInterfaces\GalleryProject.Dao.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GalleryProject.BusinessInterfaces
+namespace GalleryProject.Business.Contracts
 {
     public interface IImagenBusiness
     {

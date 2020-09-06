@@ -1,5 +1,5 @@
-﻿using GalleryProject.BusinessInterfaces;
-using GalleryProject.DaoInterfaces;
+﻿using GalleryProject.Business.Contracts;
+using GalleryProject.Dao.Contracts;
 using GalleryProject.Domain;
 using System;
 using System.Collections.Generic;
