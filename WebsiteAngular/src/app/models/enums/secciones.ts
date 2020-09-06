@@ -1,17 +1,17 @@
 export enum Secciones {
-    peru         = 1,
-    guatemala    = 2,
-    otherstories = 3,
-    portraits    = 4,
+    colombia     = 1,
+    argentina    = 2,
+    otrospaises = 3,
+    noticias    = 4,
     palimpsestos = 5,
     videos       = 6,
 }
 
 export const SeccionesLabel = new Map<number, string>([
-    [Secciones.peru, 'Peru'],
-    [Secciones.guatemala, 'Guatemala'],
-    [Secciones.otherstories, 'Other Stories'],
-    [Secciones.portraits, 'Portraits'],
+    [Secciones.colombia, 'Colombia'],
+    [Secciones.argentina, 'Argentina'],
+    [Secciones.otrospaises, 'Otros Paises'],
+    [Secciones.noticias,      'Noticias'],
     [Secciones.palimpsestos, 'Palimpsestos'],
     [Secciones.videos, 'Videos'],
 ]);

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { album } from '../models/album';
 import { Observable, of } from 'rxjs';
-import { delay } from 'rxjs/operators';
+
 
 @Injectable({
   providedIn: 'root'
@@ -13,42 +13,42 @@ export class AlbumesService {
     {
       id: 1,
       nombre: "Paisajes",
-      imagen: "assets/Images/Peru/MachuPichu.jpg",
-      urlTrabajos:"/trabajos/funeralperuano",
+      imagen: "assets/Images/Colombia/Paisajes/paisajes.jpg",
+      urlTrabajos:"/trabajos/PaisajesColombianos",
       seccion: 1,
     },
     {
       id: 2,
       nombre: "Reservas Nacionales",
-      imagen: "assets/Images/Peru/Lagotiticaca.jpg",
-      urlTrabajos:"/trabajos/fosascomunes",
+      imagen: "assets/Images/Colombia/Reservas Naturales/PARQUE NACIONAL NATURAL SERRANÍA DE CHIRIBIQUETE.jpg",
+      urlTrabajos:"/trabajos/ReservasColombianas",
       seccion: 1,
     },
     {
       id: 3,
       nombre: "Fauna",
-      urlTrabajos:"/trabajos/hojasdecoca",
-      imagen: "assets/Images/Peru/alphaca.jpg",
+      imagen: "assets/Images/Colombia/Fauna/faunacolombia.jpg",
+      urlTrabajos:"/trabajos/FaunaColombiana",
       seccion: 1,
     },
     {
       id: 4,
       nombre: "Paisajes",
-      urlTrabajos:"/trabajos/hojasdecoca",
+      urlTrabajos:"/trabajos/PaisajesArgentinos",
       imagen: "assets/Images/Guatemala/guatemala.jpg",
       seccion: 2,
     },
     {
       id: 5,
       nombre: "Reservas Nacionales",
-      urlTrabajos:"/trabajos/hojasdecoca",
+      urlTrabajos:"/trabajos/ReservasArgentinas",
       imagen: "assets/Images/Guatemala/reservas.jpg",
       seccion: 2,
     },
     {
       id: 6,
       nombre: "Fauna",
-      urlTrabajos:"/trabajos/fosascomunes",
+      urlTrabajos:"/trabajos/FaunaArgentina",
       imagen: "assets/Images/Guatemala/fauna.jpg",
       seccion: 2,
     },
@@ -73,7 +73,7 @@ export class AlbumesService {
   traerAlbumesPor(seccion: number): Observable<album[]> {
 
     
-    return of(this.albumes.filter(x => x.seccion == seccion)).pipe(delay(3000))
+    return of(this.albumes.filter(x => x.seccion == seccion))
 
   }
 }
