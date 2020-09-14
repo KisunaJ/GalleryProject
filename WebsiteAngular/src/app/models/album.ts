@@ -4,5 +4,6 @@ export class Album {
   id: number;
   nombre: string;
   seccion: Secciones;
+  portada: string;
   url: string;
 }

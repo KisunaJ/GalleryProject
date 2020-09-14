@@ -19,14 +19,13 @@ export class HomeComponent implements OnInit {
     //Se agrega esta linea para solventar el error preexistente en la primeng-galleria.js
     this.router.navigate([this.router.url]);
 
-    this.imagenesService.obtenerImagenPor(14).subscribe(result => {
-      this.imagenesFiltradas.push(result);
-    });
-
-    // this.imagenesService.filtraImagenesHome().subscribe(imagenes => {
-      
-    //   this.imagenesFiltradas = imagenes;
+    // this.imagenesService.obtenerImagenPor(14).subscribe(result => {
+    //   this.imagenesFiltradas.push(result);
     // });
+
+    this.imagenesService.filtraImagenesHome().subscribe(imagenes => {
+      this.imagenesFiltradas = imagenes;
+    });
 
   }
 
