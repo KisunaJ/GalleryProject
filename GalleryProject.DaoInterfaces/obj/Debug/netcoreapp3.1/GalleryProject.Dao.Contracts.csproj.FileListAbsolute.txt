@@ -1,0 +1,16 @@
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.deps.json
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Common.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Domain.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Common.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\bin\Debug\netcoreapp3.1\GalleryProject.Repository.Entities.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.csprojAssemblyReference.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.AssemblyInfoInputs.cache
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.AssemblyInfo.cs
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.csproj.CopyComplete
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.dll
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.pdb
+C:\Users\EC7000\Documents\GitHub\GalleryProject\GalleryProject.DaoInterfaces\obj\Debug\netcoreapp3.1\GalleryProject.Dao.Contracts.csproj.CoreCompileInputs.cache

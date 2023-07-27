@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GalleryProject.BusinessInterfaces\GalleryProject.Business.Contracts.csproj" />
+    <ProjectReference Include="..\GalleryProject.DaoInterfaces\GalleryProject.Dao.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
